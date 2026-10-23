@@ -6,7 +6,7 @@ import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { useRef } from 'react';
 import { createNote } from '../../lib/api'
 import type { NewNoteData } from '../../types/note';
-import { useNoteDraftStore } from '@/lib/stores/noteStore';
+import { useNoteDraftStore } from '@/lib/store/noteStore';
 import { useRouter } from 'next/navigation';
 
 

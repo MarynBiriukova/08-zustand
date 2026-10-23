@@ -1,4 +1,4 @@
-// app/lib/stores/noteStore.ts
+// app/lib/store/noteStore.ts
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
