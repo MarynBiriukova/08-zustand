@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
         title: pageTitle,
         description: `Browse notes tagged with ${rawFilter}. NoteHub allows you to filter and view notes based on tags for better organization.`,
-        url: 'https://notehub.com/',
+        url: '08-zustand-puce-theta.vercel.app',
         images: [
           {
             url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
