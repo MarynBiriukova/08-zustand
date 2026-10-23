@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       openGraph: {
         title: `Note: ${note.title}`,
         description: note.content.slice(0, 30),
-        url: '08-zustand-puce-theta.vercel.app',
+        url: 'https://08-zustand-puce-theta.vercel.app',
         images: [
           {
             url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
